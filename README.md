@@ -1,4 +1,4 @@
-# DiscordBot
+# Social-Bots
 Helps Moderation and Security
 <br>
 <img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/profile/dividers.png">
