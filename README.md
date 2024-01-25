@@ -1,5 +1,5 @@
 # DiscordBot
-A Moderation/leveling Discord bot, Made for TeaClient Called TeaClientCore.
+Helps Moderation and Security
 <br>
 <img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/profile/dividers.png">
 ## Guides
