@@ -1,9 +1,9 @@
-# Node
+# Generated files
 node_modules
+/drizzle/db.sqlite
+/blacklist.txt
 
-# Outputs
-output
-
-
-# Enviroment Virables
+# Secrets
 .env
+
+
