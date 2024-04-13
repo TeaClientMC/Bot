@@ -1,9 +1,12 @@
-# Generated files
+# Node
 node_modules
-/drizzle/db.sqlite
-/blacklist.txt
+yarn.lock
 
-# Secrets
-.env
+# Nix
+.direnv
+.pre-commit-config.yaml
+.devenv
 
 
+# Turbo repo
+.turbo

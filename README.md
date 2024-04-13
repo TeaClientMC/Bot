@@ -1,18 +1,7 @@
-# Discord Bot
-A Discord bot that helps the moderatation and safety of TeaClient Servers.
+# Social Bots
+A Social Bots that helps the moderatation and safety of TeaClient Servers.
 <br>
-<img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/profile/dividers.png">
-
-## Features
-
-> Advanced Ticket System
-
-> AutoMod System
-
-> Dashboard 
-
-> Database with BunSqlite.
-
+<img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/assets/dividers.png">
 
 ### Prerequisites
 
@@ -30,24 +19,26 @@ bun install
 
 That will install all of the dependacies that you will need to run this discord bot.
 
-Now you want to run it?
+Now you want to run it? There are two methods below:
 
-Good question to run it just use: 
-```shell
-bun run dev
+#### Running Seprate Bots 
+1. Cd to the type for example `cd core`
+
+2. Then Run it with: 
+```sh
+bun dev
 ```
+
+#### Running All Bots
+
+To run all discord bots using without Cding
+```
+bun dev
+```
+
 This will the run the bot.
 
-<img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/profile/dividers.png">
-
-### FAQ
-
-Why is my discord bot asking for a discord bot token?
-> The discord bot will use this discord token to login as the discord bot.
-
-Is the muliple guild id's required?
-> Is some certain stanses it may be required but it is not required it will use the main guild id.
-
+<img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/assets/dividers.png">
 
 
 
@@ -64,16 +55,3 @@ Is the muliple guild id's required?
 ![BenchMark Image](./src/assets/)
 
 <img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/profile/dividers.png">
-
-
-<!-- ### Partners/Hosting
-
-
-Greatnet offers minecraft for a cheep price and evern for free if you join their discord.
-So what are waiting for join and get a free server or get a 20% Discount on all servers that you buy from them.
-
-**USE CODE: teaclient NOW FOR 20% Off!**
-
-https://billing.greatnethosting.com/register?ref=teaclient
-
-Thanks to them for hosting this discord bot. -->
