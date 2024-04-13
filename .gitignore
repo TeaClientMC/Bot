@@ -10,3 +10,5 @@ yarn.lock
 
 # Turbo repo
 .turbo
+
+.github/workflows/deploy.yml
