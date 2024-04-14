@@ -1,113 +1,73 @@
-# Contributors guide
+# Contributors Guide
 
-One thanks for taking the time to contribute to TeaClient Social Bots ❤️
-And Two this is full guidence of how you can contribute to the Social Bots.
+Thank you for your interest in contributing to TeaClient Social Bots! We're excited to have you on board. This guide will walk you through everything you need to know to get started and contribute effectively to our project.
 
+## Table of Contents
 
-# Table of contents
-- [Contributors guide](#contributors-guide)
-- [Table of contents](#table-of-contents)
-- [Getting Started](#getting-started)
-  - [Knowledge](#knowledge)
-    - [Prerequisites/Requirements](#prerequisitesrequirements)
-  - [Development Setup](#development-setup)
-  - [Nix Setup](#nix-setup)
-  - [Installing | Skip if using nix.](#installing--skip-if-using-nix)
-  - [Running the bot](#running-the-bot)
-    - [Running the bot Seprately](#running-the-bot-seprately)
-    - [Running All bots](#running-all-bots)
+- [Contributors Guide](#contributors-guide)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Development Setup](#development-setup)
+      - [Nix Setup](#nix-setup)
+      - [Installing Dependencies](#installing-dependencies)
+    - [Running the Bot](#running-the-bot)
+- [Code of Conduct](#code-of-conduct)
+- [Acknowledgements](#acknowledgements)
+- [Links Used](#links-used)
 
+## Getting Started
 
+### Prerequisites
 
+Before you begin, ensure you have the following:
 
-# Getting Started
+- Basic knowledge of [TypeScript](https://www.typescriptlang.org/docs/), [DiscordJS](https://discordjs.guide/#before-you-begin), [Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), [TurboRepo](https://turbo.build/repo/docs), and [Bun](https://bun.sh/docs).
+- A Discord Application and Server.
+- [Bun](https://bun.sh/) installed. Note: If you're using Nix/NixOS, Bun is included in the environment setup.
 
+**Note:** It's recommended to have a basic understanding of JavaScript before diving into TypeScript, as TypeScript is essentially JavaScript with types.
 
-## Knowledge
+### Development Setup
 
-We **require** for any contributes to have a **Basic Knowledge** of how **[TypeScript][TSGuide], [DiscordJS][DiscordJsGuide], [Node][NodeJSGuide], [TurboRepo][TurboGuide] and [Bun][BunGuide] Works.**
+This project utilizes Bun as its package manager and build tool, chosen for its speed, simplicity, and compatibility with TypeScript.
 
+#### Nix Setup
 
-**Note: You should learn [JavaScript][JSGuide] first before TypeScript since TypeScript is JavaScript + Types.**
-
-**You also may need a basic knowledge of how your ide works.**
-
-*If you don't know the basic knowledge come back when you do have the Knowledge*
-
-
-### Prerequisites/Requirements
-
-
-- [Bun](https://bun.sh/)
-- Discord Application.
-- Discord Server
-
-**Note: Bun Is required for this project and you will recive an error for not being on bun**
-
-**Note: On a Nix/NixOS instance you will not have to install bun so you can skip installing bun requirement.**
-
-Other required stuff is the knowledge based [here](#knowledge) and Required to use all everything in bun sept for when it can't then just use node but really you should be using bun to the fullest.
-
-
-## Development Setup
-
-This project uses/requires Bun as its package manager and build tool. Bun is chosen for its speed, simplicity, and compatibility with TypeScript.
-
-
-## Nix Setup
-With Nix we include a full flake that will help you setup that means you won't have to install everything you will just need to know how to [run it](#running-the-bot).
-
-To get your enviroment either use direnv and allow it via `direnv allow` or do:
-```
+For Nix/NixOS users, a full flake is included to streamline the setup process. You can either use `direnv` and allow it via `direnv allow`, or run:
+```sh
 nix develop --impure
 ```
 
-## Installing | Skip if using nix.
+#### Installing Dependencies
 
-To install all of the projects dependacies using bun you can use:
+To install all project dependencies using Bun, run:
 ```sh
 bun install
 ```
-And it should install the required deps to run.
+
+### Running the Bot
+
+There are two methods to run the bot:
+
+1. **Running the bot separately**: Navigate to the specific bot directory (e.g., `cd bots/<bot>`) and run `bun dev`.
+2. **Running all bots**: Execute `bun dev` in the root directory to run all bots with TurboRepo.
 
 
-## Running the bot
-There are currently two methods:
+# Code of Conduct
 
-1. Running the bot Seprately by cding like `cd bot/core`
-2. Running all of the bots
-  
-### Running the bot Seprately 
-To run the bot seprately check the [`bots`](./bots/) directory for what bot you want.
-to run and cd into the bot by using this example:
-```sh
-cd bots/<bot>
-```
+We expect all contributors to adhere to our [Code of Conduct](#). This document outlines our community standards and provides guidelines for participating in our project.
 
-You should be in bots directory.
+# Acknowledgements
 
-Now to run it you can use the following command: 
-```sh
-bun dev
-```
+We'd like to thank all contributors & Team Members/Maintainers for their efforts and dedication. Your contributions are what make this project thrive.
 
+---
 
-### Running All bots
+# Links Used
 
-To Run all of the bots use the following command: 
-```sh
-bun dev
-```
-
-This will run the bots with [Turbo repo][TurboRepo].
-
-
-
-[DiscordJsGuide]: https://discordjs.guide/#before-you-begin
-[NodeJSGuide]: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
-[TSGuide]: https://www.typescriptlang.org/docs/
-[JSGuide]: https://developer.mozilla.org/en-US/docs/Web/javascript
-[BunGuide]: https://bun.sh/docs
-[TurboGuide]: https://turbo.build/repo/docs
-[TurboRepo]: https://turbo.build
-[BunWebsite]: https://bun.sh/
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [DiscordJS](https://discordjs.guide/#before-you-begin)
+- [Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+- [TurboRepo](https://turbo.build/repo/docs)
+- [Bun](https://bun.sh/docs)
