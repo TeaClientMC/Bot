@@ -20,7 +20,7 @@
 
 ## Knowledge
 
-We require for any contributes to have a Basic Knowledge of how TypeScript, [DiscordJS][DiscordJsGuide], [Node][NodeJSGuide] and [Bun][BunGuide] Works
+We require for any contributes to have a Basic Knowledge of how [TypeScript][TSGuide], [DiscordJS][DiscordJsGuide], [Node][NodeJSGuide], [TurboRepo][TurboGuide] and [Bun][BunGuide] Works
 
 
 Note: You should learn [JavaScript][JSGuide] first before TypeScript since TypeScript is JavaScript + Types.
@@ -34,6 +34,7 @@ If you don't know the basic knowledge come back when you do have the Knowledge
 [TSGuide]: https://www.typescriptlang.org/docs/
 [JSGuide]: https://developer.mozilla.org/en-US/docs/Web/javascript
 [BunGuide]: https://bun.sh/docs
+[TurboGuide]: https://turbo.build/repo/docs
 
 ### Prerequisites
 
