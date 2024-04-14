@@ -39,7 +39,7 @@ If you don't know the basic knowledge come back when you do have the Knowledge
 
 - [Bun](https://bun.sh/)
 - Discord Application.
-- Multiple guilds.
+- Discord Server
 
 ## Development Setup
 
