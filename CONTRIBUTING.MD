@@ -43,13 +43,14 @@ If you don't know the basic knowledge come back when you do have the Knowledge
 
 ## Development Setup
 
-This project uses Bun as its package manager and build tool. Bun is chosen for its speed, simplicity, and compatibility with TypeScript.
+This project uses/requires Bun as its package manager and build tool. Bun is chosen for its speed, simplicity, and compatibility with TypeScript.
 
 
 
 ## Installing Bun
 
 Follow the instructions on the [Bun website](https://bun.dev/) to install Bun on your system.
+
 
 
 
