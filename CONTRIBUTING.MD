@@ -29,13 +29,6 @@ Note: You should learn [JavaScript][JSGuide] first before TypeScript since TypeS
 If you don't know the basic knowledge come back when you do have the Knowledge
 
 
-[DiscordJsGuide]: https://discordjs.guide/#before-you-begin
-[NodeJSGuide]: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
-[TSGuide]: https://www.typescriptlang.org/docs/
-[JSGuide]: https://developer.mozilla.org/en-US/docs/Web/javascript
-[BunGuide]: https://bun.sh/docs
-[TurboGuide]: https://turbo.build/repo/docs
-
 ### Prerequisites
 
 - [Bun](https://bun.sh/)
@@ -50,10 +43,13 @@ This project uses/requires Bun as its package manager and build tool. Bun is cho
 
 ## Installing Bun
 
-Follow the instructions on the [Bun website](https://bun.sh/) to install Bun on your system.
+Follow the instructions on the [Bun website][BunWebsite] to install Bun on your system.
 
 
-
-
-
-
+[DiscordJsGuide]: https://discordjs.guide/#before-you-begin
+[NodeJSGuide]: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
+[TSGuide]: https://www.typescriptlang.org/docs/
+[JSGuide]: https://developer.mozilla.org/en-US/docs/Web/javascript
+[BunGuide]: https://bun.sh/docs
+[TurboGuide]: https://turbo.build/repo/docs
+[BunWebsite]: https://bun.sh/
