@@ -8,9 +8,9 @@
 - [Table of contents](#table-of-contents)
 - [Getting Started](#getting-started)
   - [Knowledge](#knowledge)
-    - [Prerequisites](#prerequisites)
+  - [Prerequisites/Requirements](#prerequisitesrequirements)
   - [Development Setup](#development-setup)
-  - [Installing Bun](#installing-bun)
+  - [In](#in)
 
 
 
@@ -29,11 +29,14 @@ Note: You should learn [JavaScript][JSGuide] first before TypeScript since TypeS
 If you don't know the basic knowledge come back when you do have the Knowledge
 
 
-### Prerequisites
+## Prerequisites/Requirements
+
 
 - [Bun](https://bun.sh/)
 - Discord Application.
 - Discord Server
+
+Other required stuff is the knowledge based [here](#knowledge) and Required to use all everything in bun sept for when it can't then just use node but really you should be using bun to the fullest.
 
 ## Development Setup
 
@@ -41,10 +44,8 @@ This project uses/requires Bun as its package manager and build tool. Bun is cho
 
 
 
-## Installing Bun
 
-Follow the instructions on the [Bun website][BunWebsite] to install Bun on your system.
-
+## In
 
 [DiscordJsGuide]: https://discordjs.guide/#before-you-begin
 [NodeJSGuide]: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
