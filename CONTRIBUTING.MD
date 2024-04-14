@@ -8,9 +8,12 @@
 - [Table of contents](#table-of-contents)
 - [Getting Started](#getting-started)
   - [Knowledge](#knowledge)
-  - [Prerequisites/Requirements](#prerequisitesrequirements)
+    - [Prerequisites/Requirements](#prerequisitesrequirements)
   - [Development Setup](#development-setup)
-  - [In](#in)
+  - [Nix Setup](#nix-setup)
+  - [Installing | Skip if using nix.](#installing--skip-if-using-nix)
+  - [Running the bot](#running-the-bot)
+  - [Running the bot Seprately](#running-the-bot-seprately)
 
 
 
@@ -20,32 +23,68 @@
 
 ## Knowledge
 
-We require for any contributes to have a Basic Knowledge of how [TypeScript][TSGuide], [DiscordJS][DiscordJsGuide], [Node][NodeJSGuide], [TurboRepo][TurboGuide] and [Bun][BunGuide] Works
+We **require** for any contributes to have a **Basic Knowledge** of how **[TypeScript][TSGuide], [DiscordJS][DiscordJsGuide], [Node][NodeJSGuide], [TurboRepo][TurboGuide] and [Bun][BunGuide] Works.**
 
 
-Note: You should learn [JavaScript][JSGuide] first before TypeScript since TypeScript is JavaScript + Types.
+**Note: You should learn [JavaScript][JSGuide] first before TypeScript since TypeScript is JavaScript + Types.**
+
+**You also may need a basic knowledge of how your ide works.**
+
+*If you don't know the basic knowledge come back when you do have the Knowledge*
 
 
-If you don't know the basic knowledge come back when you do have the Knowledge
-
-
-## Prerequisites/Requirements
+### Prerequisites/Requirements
 
 
 - [Bun](https://bun.sh/)
 - Discord Application.
 - Discord Server
 
+**Note: Bun Is required for this project and you will recive an error for not being on bun**
+
+**Note: On a Nix/NixOS instance you will not have to install bun so you can skip installing bun requirement.**
+
 Other required stuff is the knowledge based [here](#knowledge) and Required to use all everything in bun sept for when it can't then just use node but really you should be using bun to the fullest.
+
 
 ## Development Setup
 
 This project uses/requires Bun as its package manager and build tool. Bun is chosen for its speed, simplicity, and compatibility with TypeScript.
 
 
+## Nix Setup
+With Nix we include a full flake that will help you setup that means you won't have to install everything you will just need to know how to [run it](#running-the-bot).
+
+To get your enviroment either use direnv and allow it via `direnv allow` or do:
+```
+nix develop --impure
+```
+
+## Installing | Skip if using nix.
+
+To install all of the projects dependacies using bun you can use:
+```sh
+bun install
+```
+And it should install the required deps to run.
 
 
-## In
+## Running the bot
+There are currently two methods:
+
+1. Running the bot Seprately by cding like `cd bot/core`
+2. Running all of the bots
+  
+## Running the bot Seprately 
+To run the bot seprately check the [`bots`](./bots/) directory for what bot you want.
+to run and cd into the bot by using this example:
+```sh
+cd bots/<bot>
+```
+
+You should be in bots directory.
+
+
 
 [DiscordJsGuide]: https://discordjs.guide/#before-you-begin
 [NodeJSGuide]: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
