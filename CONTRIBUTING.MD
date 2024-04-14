@@ -50,7 +50,7 @@ This project uses/requires Bun as its package manager and build tool. Bun is cho
 
 ## Installing Bun
 
-Follow the instructions on the [Bun website](https://bun.dev/) to install Bun on your system.
+Follow the instructions on the [Bun website](https://bun.sh/) to install Bun on your system.
 
 
 
