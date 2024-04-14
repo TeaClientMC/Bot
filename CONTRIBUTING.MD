@@ -1,6 +1,7 @@
 # Contributors guide
 
-
+One thanks for taking the time to contribute to TeaClient Social Bots ❤️
+And Two this is full guidence of how you can contribute to the Social Bots.
 
 
 # Table of contents
@@ -13,7 +14,8 @@
   - [Nix Setup](#nix-setup)
   - [Installing | Skip if using nix.](#installing--skip-if-using-nix)
   - [Running the bot](#running-the-bot)
-  - [Running the bot Seprately](#running-the-bot-seprately)
+    - [Running the bot Seprately](#running-the-bot-seprately)
+    - [Running All bots](#running-all-bots)
 
 
 
@@ -75,7 +77,7 @@ There are currently two methods:
 1. Running the bot Seprately by cding like `cd bot/core`
 2. Running all of the bots
   
-## Running the bot Seprately 
+### Running the bot Seprately 
 To run the bot seprately check the [`bots`](./bots/) directory for what bot you want.
 to run and cd into the bot by using this example:
 ```sh
@@ -83,6 +85,21 @@ cd bots/<bot>
 ```
 
 You should be in bots directory.
+
+Now to run it you can use the following command: 
+```sh
+bun dev
+```
+
+
+### Running All bots
+
+To Run all of the bots use the following command: 
+```sh
+bun dev
+```
+
+This will run the bots with [Turbo repo][TurboRepo].
 
 
 
@@ -92,4 +109,5 @@ You should be in bots directory.
 [JSGuide]: https://developer.mozilla.org/en-US/docs/Web/javascript
 [BunGuide]: https://bun.sh/docs
 [TurboGuide]: https://turbo.build/repo/docs
+[TurboRepo]: https://turbo.build
 [BunWebsite]: https://bun.sh/
