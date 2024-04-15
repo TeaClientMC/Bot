@@ -36,12 +36,12 @@ if (!env.Token && !env.AppID && !env.ClientSecret && !env.MainDC)
 		"Please Specify the Bot Requirements in /bots/core/.env you can also find and example in the folder.",
 	);
 
-LoadCommands({
-	mainFolder: path.join(__dirname, "commands"),
-	token: env.Token,
-	clientID: env.AppID,
-	client: client,
-	guildID: env.TeamDC ?? env.MainDC,
-});
+LoadCommands(
+	env.Token,
+	env.AppID,
+	client,
+	env.TeamDC ?? env.MainDC,
+	"/src/commands",
+);
 
 client.login(env.Token);
