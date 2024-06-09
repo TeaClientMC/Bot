@@ -1,5 +1,5 @@
 {
-	"name": "discord",
+	"name": "core-dc-bot",
 	"module": "src/index.ts",
 	"devDependencies": {
 		"@types/bun": "latest"
