@@ -3,6 +3,13 @@ A Social Bots that helps the moderatation and safety of TeaClient Servers.
 <br>
 <img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/assets/dividers.png">
 
+## Features
+- Slash Commands
+- Events
+- AutoMod
+- Configuration via Env
+- Easy Restart by pressing R
+
 
 Installing via:
 ```shell
@@ -20,6 +27,8 @@ Now you want to run it? There are two methods below:
 ```sh
 bun dev
 ```
+
+**Command coming soon!**
 
 #### Running All Bots
 
