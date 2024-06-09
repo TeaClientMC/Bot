@@ -1,7 +1,7 @@
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
+import type { Handler } from "@utils";
 import { Client, Collection, GatewayIntentBits, Partials } from "discord.js";
-import type { Handler } from "./@types";
 
 const client = new Client({
 	intents: [
