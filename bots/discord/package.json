@@ -1,17 +1,14 @@
 {
-	"name": "core",
+	"name": "discord",
 	"module": "src/index.ts",
-	"type": "module",
 	"devDependencies": {
 		"@types/bun": "latest"
-	},
-	"scripts": {
-		"dev": "bun ."
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0"
 	},
-	"dependencies": {
-		"@discordjs/rest": "^2.2.0"
-	}
+	"scripts": {
+		"dev": "bun ."
+	},
+	"type": "module"
 }

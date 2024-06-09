@@ -42,7 +42,7 @@
                 env = { };
 
                 # https://devenv.sh/reference/options/
-                packages = with pkgs; [ ] ++ nodejs-packages;
+                packages = with pkgs; [ turbo ] ++ nodejs-packages;
 
                 # https://devenv.sh/scripts/
                 # scripts.hello.exec = "";

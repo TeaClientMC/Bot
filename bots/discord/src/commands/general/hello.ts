@@ -1,4 +1,5 @@
 import { type CommandInteraction, SlashCommandBuilder } from "discord.js";
+import type { SlashCommand } from "../../@types/index";
 
 export default {
 	data: new SlashCommandBuilder().setName("hello").setDescription("Says Hello"),
