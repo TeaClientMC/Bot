@@ -9,10 +9,11 @@
 	},
 	"scripts": {
 		"dev": "turbo run dev",
-		"watch": "turbo watch dev"
+		"watch": "turbo watch dev",
+		"quality": "turbo run quality"
 	},
 	"type": "module",
-	"workspaces": ["bots/*", "utils/*"],
+	"workspaces": ["/src/*"],
 	"dependencies": {
 		"@discordjs/rest": "^2.3.0",
 		"discord.js": "^14.14.1",
