@@ -1,4 +1,10 @@
-import type { Collection, SlashCommandBuilder } from "discord.js";
+import type {
+	Client,
+	Collection,
+	SlashCommandBuilder,
+	SlashCommandOptionsOnlyBuilder,
+	SlashCommandSubcommandBuilder,
+} from "discord.js";
 
 export declare type Handler = {
 	name: string;
@@ -11,10 +17,16 @@ export declare type Event = {
 	execute: function;
 };
 
-export declare type SlashCommand = {
-	data: SlashCommandBuilder;
-	execute: function;
-};
+export interface SlashCommand extends ChatInputApplicationCommandData {
+	data:
+		| SlashCommandBuilder
+		| SlashCommandOptionsOnlyBuilder
+		| SlashCommandSubcommandBuilder;
+	execute: (
+		client: Client,
+		interaction: ChatInputCommandInteraction,
+	) => Promise<unknown>;
+}
 
 declare module "discord.js" {
 	export interface Client {
