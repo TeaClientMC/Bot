@@ -31,19 +31,3 @@ bun dev
 This will the run the bot.
 
 <img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/assets/dividers.png">
-
-
-
-
-### Benchmarks
-
-
-![BenchMark Image](./src/assets/)
-
-![BenchMark Image](./src/assets/)
-
-![BenchMark Image](./src/assets/)
-
-![BenchMark Image](./src/assets/)
-
-<img src="https://raw.githubusercontent.com/TeaclientMinecraft/.github/main/profile/dividers.png">
