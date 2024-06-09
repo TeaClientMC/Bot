@@ -7,6 +7,9 @@
 	"peerDependencies": {
 		"typescript": "^5.0.0"
 	},
+	"dependencies": {
+		"@utils": "workspace:"
+	},
 	"scripts": {
 		"dev": "bun ."
 	},

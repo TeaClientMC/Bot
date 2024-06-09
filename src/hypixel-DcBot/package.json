@@ -10,5 +10,8 @@
 	"scripts": {
 		"dev": "bun ."
 	},
+	"dependencies": {
+		"@utils": "workspace:"
+	},
 	"type": "module"
 }
