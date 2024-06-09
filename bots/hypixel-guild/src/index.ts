@@ -23,8 +23,8 @@ const handlers: Handler[] = [];
 
 function loadHandler() {
 	const handlersPath = join(__dirname, "./handlers");
-	const handlersFiles = readdirSync(handlersPath).filter(
-		(file) => file.endsWith(".js") || file.endsWith(".ts"),
+	const handlersFiles = readdirSync(handlersPath).filter((file) =>
+		file.endsWith(".ts"),
 	);
 	for (const file of handlersFiles) {
 		const filePath = join(handlersPath, file);
