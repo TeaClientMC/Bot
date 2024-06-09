@@ -37,7 +37,7 @@ const handler: Handler = {
 		(async () => {
 			try {
 				console.log(`Trying to refresh ${commands.length} slashCommands.`);
-				// biome-ignore lint/suspicious/noExplicitAny: <explanation>
+				// biome-ignore lint/suspicious/noExplicitAny: We Don't know data type
 				const data: any = await rest.put(
 					Routes.applicationCommands(process.env.AppID || ""),
 					{
