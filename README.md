@@ -1,3 +1,6 @@
+> [!WARNING]
+> DEPRECATED: The following code will no longer be maintained, Please use Main DC Bot which is moved into: https://github.com/TeaClientMC/Discord-Bot & Hypixel-GC-Bot Moved into https://github.com/TeaClientMC/Hypixel-Guild-DC-Bot
+
 # Social Bots
 A Social Bots that helps the moderatation and safety of TeaClient Servers.
 <br>
